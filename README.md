@@ -49,3 +49,33 @@ The goal is to classify flowers into one of the following species:
    - Classification Report
 5. Create a custom function for real-time predictions
 
+
+---
+
+## 🚀 Model Training
+
+- Algorithm Used: **Logistic Regression**
+- Train-Test Split: **70% training / 30% testing**
+- Model Accuracy: ~**97%**
+
+---
+
+## 📊 Evaluation Metrics
+
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-Score**
+
+These metrics help in understanding the performance of the model across all classes.
+
+---
+
+## 🔍 Example Predictions
+
+```python
+predict_species(5.1, 3.5, 1.4, 0.2)
+# Output: setosa
+
+predict_species(6.7, 3.0, 5.2, 2.3)
+# Output: virginica
